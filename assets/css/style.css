@@ -174,6 +174,7 @@ p{
   margin-top: 0;
   margin-bottom: 0 !important;
 }
+
 .mt-80 {
   margin-top: 80px;
 }
@@ -507,7 +508,9 @@ p{
   input[type="checkbox"]:checked + ul.sm-screen {
     left: 0;
     opacity: 1;
-    pointer-events: all;
+    pointer-events: all;  
+      margin-top: 0!important;
+  }
   }
   .burger-none {
     display: none;
@@ -515,7 +518,7 @@ p{
   .dis-none {
     display: none;
   }
-}
+
 @media (min-width: 320px) {
   .width-xm {
     width: 100%;
