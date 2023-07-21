@@ -510,14 +510,15 @@ p{
     opacity: 1;
     pointer-events: all;  
       margin-top: 0!important;
+    }
+    .burger-none {
+      display: none;
+    }
+    .dis-none {
+      display: none !important;
+    }
   }
-  }
-  .burger-none {
-    display: none;
-  }
-  .dis-none {
-    display: none;
-  }
+
 
 @media (min-width: 320px) {
   .width-xm {
