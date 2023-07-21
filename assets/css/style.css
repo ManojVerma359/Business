@@ -1,10 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
 @import url(./roots.css);
 
-
-
-.para1{
-  font-family: 'Poppins', sans-serif !important;
+.para1 {
+  font-family: "Poppins", sans-serif !important;
 }
 * {
   margin: 0;
@@ -178,10 +176,9 @@
   }
 }
 
-.text-box h2 {
-  font-family: "poppins";
-  font-weight: 700;
-  font-size: 24px;
+p{
+  margin-top: 0;
+  margin-bottom: 0 !important;
 }
 .mt-80 {
   margin-top: 80px;
@@ -221,10 +218,10 @@
   transition: var(--bs-accordion-transition);
 }
 
-.accordion-button:not(.collapsed){
+.accordion-button:not(.collapsed) {
   color: #000 !important;
 }
-.accordion{
+.accordion {
   --bs-accordion-border-color: unset !important;
   --bs-accordion-btn-focus-box-shadow: unset !important;
 }
@@ -240,8 +237,8 @@
   background-color: #ffffff;
 }
 .burger-1 {
-      top: -95px;
-    left: -18%;
+  top: -95px;
+  left: -18%;
 }
 .hamburger-2 {
   top: -75px;
@@ -274,9 +271,6 @@
 .width-100 {
   width: 100%;
 }
-
-
-
 
 .pt-73 {
   padding-top: 73px;
@@ -431,9 +425,6 @@
   border-radius: 6px;
 }
 
-
-
-
 @media screen and (max-width: 768px) {
   .timeline::after {
     left: 31px;
@@ -475,7 +466,7 @@
     color: #000000;
     padding-top: 25px;
   }
-  .fs-lg-m{
+  .fs-lg-m {
     font-size: var(--fs-lg);
     font-family: var(--ff-400);
     font-weight: var(--fw-400px);
@@ -583,44 +574,42 @@
     margin-left: -3px;
   }
 }
-@media (max-width:1800px) {
-
+@media (max-width: 1800px) {
   .burger-1 {
-      top: -95px;
+    top: -95px;
     left: -7%;
+  }
+  .hamburger-2 {
+    top: -75px;
+    left: 5%;
+  }
+  .cheese-burger-3 {
+    top: -77px;
+    right: 6%;
+  }
+  .burger-4 {
+    top: -120px;
+    right: -8%;
+  }
+  .btm-burger-1 {
+    bottom: 206px;
+    left: -8%;
+  }
+  .btm-burger-2 {
+    top: 273px;
+    left: 3%;
+  }
+  .btm-burger-3 {
+    top: 245px;
+    right: 2%;
+  }
+  .btm-burger-4 {
+    top: 180px;
+    right: -7%;
+  }
 }
-.hamburger-2 {
-  top: -75px;
-  left: 5%;
-}
-.cheese-burger-3 {
-  top: -77px;
-  right: 6%;
-}
-.burger-4 {
-  top: -120px;
-  right: -8%;
-}
-.btm-burger-1 {
-  bottom: 206px;
-  left: -8%;
-}
-.btm-burger-2 {
-  top: 273px;
-  left: 3%;
-}
-.btm-burger-3 {
-  top: 245px;
-  right: 2%;
-}
-.btm-burger-4 {
-  top: 180px;
-  right: -7%;
-}
-}
-@media (max-width:1330px) {
-  .dis-2xl-none{
+@media (max-width: 1330px) {
+  .dis-2xl-none {
     display: none;
   }
-  
 }
