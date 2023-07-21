@@ -275,7 +275,10 @@ p{
 }
 
 .mb-106 {
-  margin-bottom: 106px;
+  margin-bottom: 106px !important;
+}
+.mb-105{
+  margin-bottom: 105px;
 }
 
 .section-5-burger-1 {
