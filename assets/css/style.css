@@ -220,8 +220,13 @@
   overflow-anchor: none;
   transition: var(--bs-accordion-transition);
 }
+
 .accordion-button:not(.collapsed){
   color: #000 !important;
+}
+.accordion{
+  --bs-accordion-border-color: unset !important;
+  --bs-accordion-btn-focus-box-shadow: unset !important;
 }
 .box-02::after {
   content: "";
